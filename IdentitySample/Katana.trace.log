@@ -421,3 +421,119 @@ IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvid
    at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
     ProcessId=12836
     DateTime=2016-10-19T06:51:26.0732351Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=6844
+    DateTime=2016-10-19T14:30:46.5499356Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=6844
+    DateTime=2016-10-19T14:31:39.9549902Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=6844
+    DateTime=2016-10-19T14:33:03.1087463Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=6844
+    DateTime=2016-10-19T14:33:47.1032626Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=6844
+    DateTime=2016-10-19T14:36:43.7783679Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=6844
+    DateTime=2016-10-19T14:37:21.0555000Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
+   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=6844
+    DateTime=2016-10-19T14:39:17.9801877Z
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://identity-dev.com/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: http://identity-dev.com/identity/identity/.well-known/jwks ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 55
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=6844
+    DateTime=2016-10-19T14:43:08.0273457Z
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://identity-dev.com/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://identity-dev.com/identity/identity/.well-known/jwks ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 55
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 85
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=6844
+    DateTime=2016-10-19T14:45:01.9038590Z

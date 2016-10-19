@@ -1,18 +1,13 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using IdentitySample.Config;
+using IdentityServer3.AccessTokenValidation;
+using IdentityServer3.Core.Configuration;
 using Microsoft.Owin;
 using Owin;
-using IdentityServer3.Core.Configuration;
-using IdentitySample.Config;
-using System.Web.Http;
-using System.Security.Cryptography.X509Certificates;
-using System.IO;
-using IdentityServer3.AccessTokenValidation;
-using System.Web.Routing;
-using System.Net;
 using Serilog;
-using IdentityServer3.Core.Logging;
-using Serilog.Events;
+using System;
+using System.IO;
+using System.Security.Cryptography.X509Certificates;
+using System.Web.Routing;
 
 [assembly: OwinStartup(typeof(IdentitySample.Startup))]
 
@@ -33,30 +28,28 @@ namespace IdentitySample
                                                             .UseInMemoryClients(Clients.Get())
                                                             .UseInMemoryUsers(Users.Get())
                                                             .UseInMemoryScopes(Scopes.Get());
-
-                IdentityServerOptions options = new IdentityServerOptions
+                idsrv.UseIdentityServer(new IdentityServerOptions
                 {
                     RequireSsl = true,
                     SiteName = "IdentityServer3Sample",
                     IssuerUri = Authority,
                     Factory = Factory,
-                    //PublicOrigin = "http://identity-dev.com/identity",
-                    SigningCertificate = new X509Certificate2(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"bin\idsrv3test.pfx"), "idsrv3test")
-                };
-                idsrv.UseIdentityServer(options);
+                    //PublicOrigin = "https://identity-dev.com/identity",
+                    SigningCertificate = GetCertificate()
+                });
             });
 
-            IdentityServerBearerTokenAuthenticationOptions authOptions = new IdentityServerBearerTokenAuthenticationOptions
+            app.UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions
             {
                 Authority = Authority,
                 DelayLoadMetadata = true,
-                ValidationMode = ValidationMode.ValidationEndpoint,
-                RequiredScopes = new[] { "api" },
-            };
-
-            app.UseIdentityServerBearerTokenAuthentication(authOptions);
+                ValidationMode = ValidationMode.Both,
+                RequiredScopes = new[] { "api" }
+            });
 
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            app.UseWebApi(WebApiConfig.Register());
+
 
             Log.Logger = new LoggerConfiguration()
                         .MinimumLevel.Debug()
@@ -65,6 +58,11 @@ namespace IdentitySample
 
             //LogProvider.SetCurrentLogProvider(new DiagnosticsTraceLogProvider());
 
+        }
+
+        private X509Certificate2 GetCertificate()
+        {
+            return new X509Certificate2(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"bin\idsrv3test.pfx"), "idsrv3test");
         }
     }
 }
