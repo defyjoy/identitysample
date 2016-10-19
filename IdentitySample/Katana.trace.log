@@ -1,0 +1,423 @@
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://identity-dev.com/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://identity-dev.com/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=11608
+    DateTime=2016-10-18T21:22:28.8389631Z
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://identity-dev.com/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://identity-dev.com/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=11608
+    DateTime=2016-10-18T21:27:03.9666996Z
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://localhost:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://localhost:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=11608
+    DateTime=2016-10-18T21:32:19.0147193Z
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
+   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=11608
+    DateTime=2016-10-18T21:33:03.8362829Z
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
+   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=15220
+    DateTime=2016-10-19T05:32:55.0627807Z
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
+   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=15740
+    DateTime=2016-10-19T06:18:11.4091469Z
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
+   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=15740
+    DateTime=2016-10-19T06:18:31.2472815Z
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
+   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=15740
+    DateTime=2016-10-19T06:18:45.5991024Z
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
+   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=15740
+    DateTime=2016-10-19T06:19:13.7967152Z
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
+   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=15740
+    DateTime=2016-10-19T06:19:28.7575709Z
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://identity-dev.com/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://identity-dev.com/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=15740
+    DateTime=2016-10-19T06:22:07.4916500Z
+IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://identity-dev.com/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://identity-dev.com/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
+   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
+    ProcessId=12836
+    DateTime=2016-10-19T06:51:26.0732351Z
