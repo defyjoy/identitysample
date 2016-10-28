@@ -18,13 +18,32 @@ namespace IdentitySample.Config
                 {
                     Name="api",
                     DisplayName="IdentitySample WebAPI Scope",
-                    Type=ScopeType.Resource
-                    //ScopeSecrets = new List<Secret>
-                    //{
-                    //    new Secret("secret".Sha256())
-                    //},
+                    Type=ScopeType.Resource,
+                    ScopeSecrets = new List<Secret>
+                    {
+                        new Secret("secret".Sha256())
+                    },
                 },
-
+                new Scope
+                {
+                    Name="employee",
+                    DisplayName="All employees access this scope",
+                    Type=ScopeType.Resource,
+                    ScopeSecrets = new List<Secret>
+                    {
+                        new Secret("secret".Sha256())
+                    },
+                },
+                new Scope
+                {
+                    Name="manager",
+                    DisplayName="Only Manager related resources",
+                    Type=ScopeType.Resource,
+                    ScopeSecrets = new List<Secret>
+                    {
+                        new Secret("secret".Sha256())
+                    },
+                }
             };
         }
     }

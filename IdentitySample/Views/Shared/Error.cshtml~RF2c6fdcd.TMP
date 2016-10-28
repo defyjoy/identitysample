@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Error";
+}
+
+<h2>Error page</h2>
+
+<h4>
+    Bad Request
+</h4>
+

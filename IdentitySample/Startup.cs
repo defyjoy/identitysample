@@ -1,7 +1,11 @@
 ﻿using IdentitySample.Config;
 using IdentityServer3.AccessTokenValidation;
 using IdentityServer3.Core.Configuration;
+using IdentityServer3.Core.Services;
+using IdentityServer3.EntityFramework;
 using Microsoft.Owin;
+using Microsoft.Owin.Security.Cookies;
+using Microsoft.Owin.Security.OpenIdConnect;
 using Owin;
 using Serilog;
 using System;
@@ -16,6 +20,8 @@ namespace IdentitySample
     public class Startup
     {
         private string Authority = "https://identity-dev.com/identity";
+        private string BaseUri = "https://identity-dev.com";
+        //private string ConnectionString = "server=localhost;Database=IdentityServerSampleDb;Trusted_Connection=True";
 
         public void Configuration(IAppBuilder app)
         {
@@ -24,18 +30,37 @@ namespace IdentitySample
 
             app.Map("/identity", (idsrv) =>
             {
+                //EntityFrameworkServiceOptions efConfig = new EntityFrameworkServiceOptions
+                //{
+                //    ConnectionString = ConnectionString,
+                //    //SynchronousReads = true
+                //};
+
                 IdentityServerServiceFactory Factory = new IdentityServerServiceFactory()
-                                                            .UseInMemoryClients(Clients.Get())
-                                                            .UseInMemoryUsers(Users.Get())
-                                                            .UseInMemoryScopes(Scopes.Get());
+                        .UseInMemoryClients(Clients.Get())
+                        .UseInMemoryUsers(Users.Get())
+                        .UseInMemoryScopes(Scopes.Get());
+
+                //Factory.RegisterConfigurationServices(efConfig);
+                //Factory.RegisterOperationalServices(efConfig);
+
+                //Factory.ConfigureClientStoreCache();
+                //Factory.ConfigureScopeStoreCache();
+
                 idsrv.UseIdentityServer(new IdentityServerOptions
                 {
                     RequireSsl = true,
                     SiteName = "IdentityServer3Sample",
                     IssuerUri = Authority,
                     Factory = Factory,
-                    //PublicOrigin = "https://identity-dev.com/identity",
-                    SigningCertificate = GetCertificate()
+                    PublicOrigin = BaseUri,
+                    SigningCertificate = GetCertificate(),
+
+                    AuthenticationOptions = new AuthenticationOptions
+                    {
+                        EnablePostSignOutAutoRedirect = true,
+                        //IdentityProviders = ConfigureIdentityProviders
+                    }
                 });
             });
 
@@ -44,16 +69,35 @@ namespace IdentitySample
                 Authority = Authority,
                 DelayLoadMetadata = true,
                 ValidationMode = ValidationMode.Both,
-                RequiredScopes = new[] { "api" }
+                RequiredScopes = new[] { "api" },
+            });
+            app.UseWebApi(WebApiConfig.Register());
+
+            app.UseCookieAuthentication(new CookieAuthenticationOptions
+            {
+                AuthenticationType = "Cookies"
+                //LogoutPath = new PathString("https://identity-dev.com/")
+            });
+
+
+            app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions
+            {
+                ClientId = "mvc",
+                Authority = Authority,
+                RedirectUri = BaseUri,
+                ResponseType = "token id_token",
+                Scope = "openid api manager employee",
+                ClientSecret = "secret",
+                UseTokenLifetime = false,
+                SignInAsAuthenticationType = "Cookies",
+                PostLogoutRedirectUri = "https://identity-dev.com/"
             });
 
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            app.UseWebApi(WebApiConfig.Register());
-
 
             Log.Logger = new LoggerConfiguration()
                         .MinimumLevel.Debug()
-                                .WriteTo.RollingFile(pathFormat: @"IdSvrAdmin-{Date}.log")
+                        .WriteTo.RollingFile(pathFormat: @"IdSvrAdmin-{Date}.log")
                         .CreateLogger();
 
             //LogProvider.SetCurrentLogProvider(new DiagnosticsTraceLogProvider());

@@ -1,512 +1,418 @@
-IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://identity-dev.com/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://identity-dev.com/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
-   --- End of inner exception stack trace ---
-   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=11608
-    DateTime=2016-10-18T21:22:28.8389631Z
-IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://identity-dev.com/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://identity-dev.com/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
-   --- End of inner exception stack trace ---
-   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=11608
-    DateTime=2016-10-18T21:27:03.9666996Z
-IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://localhost:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://localhost:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
-   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
-   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
-   --- End of inner exception stack trace ---
-   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
-   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   --- End of inner exception stack trace ---
-   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=11608
-    DateTime=2016-10-18T21:32:19.0147193Z
-IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
-   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
-   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   --- End of inner exception stack trace ---
-   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=11608
-    DateTime=2016-10-18T21:33:03.8362829Z
-IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
-   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
-   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   --- End of inner exception stack trace ---
-   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=15220
-    DateTime=2016-10-19T05:32:55.0627807Z
-IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
-   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
-   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   --- End of inner exception stack trace ---
-   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=15740
-    DateTime=2016-10-19T06:18:11.4091469Z
-IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
-   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
-   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   --- End of inner exception stack trace ---
-   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=15740
-    DateTime=2016-10-19T06:18:31.2472815Z
-IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
-   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
-   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   --- End of inner exception stack trace ---
-   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=15740
-    DateTime=2016-10-19T06:18:45.5991024Z
-IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
-   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
-   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   --- End of inner exception stack trace ---
-   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=15740
-    DateTime=2016-10-19T06:19:13.7967152Z
-IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://127.0.0.3:443/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://127.0.0.3:443/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
-   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
-   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
-   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
-   --- End of inner exception stack trace ---
-   --- End of inner exception stack trace ---
-   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=15740
-    DateTime=2016-10-19T06:19:28.7575709Z
-IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://identity-dev.com/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://identity-dev.com/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
-   --- End of inner exception stack trace ---
-   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=15740
-    DateTime=2016-10-19T06:22:07.4916500Z
-IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://identity-dev.com/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://identity-dev.com/identity/.well-known/openid-configuration ---> System.AggregateException: One or more errors occurred. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
-   --- End of inner exception stack trace ---
-   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 53
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 81
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
-   --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=12836
-    DateTime=2016-10-19T06:51:26.0732351Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Error: 0 : Exception occurred while processing message: 'System.Runtime.ExceptionServices.ExceptionDispatchInfo
+    ProcessId=18364
+    DateTime=2016-10-21T20:34:26.4096682Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Error: 0 : Exception occurred while processing message: 'System.Runtime.ExceptionServices.ExceptionDispatchInfo
+    ProcessId=18364
+    DateTime=2016-10-21T20:34:29.7637160Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Error: 0 : Exception occurred while processing message: 'System.Runtime.ExceptionServices.ExceptionDispatchInfo
+    ProcessId=18364
+    DateTime=2016-10-21T20:34:40.5398542Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Error: 0 : Exception occurred while processing message: 'System.Runtime.ExceptionServices.ExceptionDispatchInfo
+    ProcessId=18364
+    DateTime=2016-10-21T20:34:42.4118681Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Error: 0 : Exception occurred while processing message: 'System.Runtime.ExceptionServices.ExceptionDispatchInfo
+    ProcessId=18364
+    DateTime=2016-10-21T20:34:43.0943786Z
 Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
-System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
-   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:10:54'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
    at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
-    ProcessId=6844
-    DateTime=2016-10-19T14:30:46.5499356Z
+    ProcessId=17312
+    DateTime=2016-10-22T19:10:54.8252201Z
 Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
-System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
-   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:11:05'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
    at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
-    ProcessId=6844
-    DateTime=2016-10-19T14:31:39.9549902Z
+    ProcessId=17312
+    DateTime=2016-10-22T19:11:05.2028136Z
 Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
-System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
-   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:12:58'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
    at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
-    ProcessId=6844
-    DateTime=2016-10-19T14:33:03.1087463Z
+    ProcessId=17312
+    DateTime=2016-10-22T19:12:58.6593030Z
 Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
-System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
-   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:13:58'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
    at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
-    ProcessId=6844
-    DateTime=2016-10-19T14:33:47.1032626Z
+    ProcessId=17312
+    DateTime=2016-10-22T19:13:58.8097434Z
 Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
-System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
-   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:23:01'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
    at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
-    ProcessId=6844
-    DateTime=2016-10-19T14:36:43.7783679Z
+    ProcessId=17312
+    DateTime=2016-10-22T19:23:01.3787765Z
 Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
-System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
-   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:23:23'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
    at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
-    ProcessId=6844
-    DateTime=2016-10-19T14:37:21.0555000Z
+    ProcessId=17312
+    DateTime=2016-10-22T19:23:23.3320322Z
 Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
-System.TypeLoadException: Could not load type 'IdentityModel.Extensions.HashStringExtensions' from assembly 'IdentityModel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null'.
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.<ReceiveAsync>d__1.MoveNext()
-   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine& stateMachine)
-   at IdentityServer3.AccessTokenValidation.ValidationEndpointTokenProvider.ReceiveAsync(AuthenticationTokenReceiveContext context)
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/19/2016 16:17:12'
+Current time: '10/22/2016 19:24:44'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
    at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
-    ProcessId=6844
-    DateTime=2016-10-19T14:39:17.9801877Z
-IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://identity-dev.com/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: http://identity-dev.com/identity/identity/.well-known/jwks ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
-   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 55
+    ProcessId=17312
+    DateTime=2016-10-22T19:24:44.0406485Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/19/2016 16:17:12'
+Current time: '10/22/2016 19:24:52'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:24:52.8421519Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/19/2016 16:17:12'
+Current time: '10/22/2016 19:25:45'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:25:45.7311770Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/19/2016 16:17:12'
+Current time: '10/22/2016 19:25:55'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:25:55.1837176Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.ArgumentException: IDX10703: Unable to decode the 'signature': 'eyJpc3MiOiJodHRwczovL2lkZW50aXR5LWRldi5jb20vaWRlbnRpdHkiLCJhdWQiOiJodHRwczovL2lkZW50aXR5LWRldi5jb20vaWRlbnRpdHkvcmVzb3VyY2VzIiwiZXhwIjoxNDc3MTY3OTU4LCJuYmYiOjE0NzcxNjQzNTgsImNsaWVudF9pZCI6IndlYmFwaSIsInNjb3BlIjoiYXBpIn0' as Base64url encoded string. jwtEncodedString: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSIsImtpZCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSJ9.eyJpc3MiOiJodHRwczovL2lkZW50aXR5LWRldi5jb20vaWRlbnRpdHkiLCJhdWQiOiJodHRwczovL2lkZW50aXR5LWRldi5jb20vaWRlbnRpdHkvcmVzb3VyY2VzIiwiZXhwIjoxNDc3MTY3OTU4LCJuYmYiOjE0NzcxNjQzNTgsImNsaWVudF9pZCI6IndlYmFwaSIsInNjb3BlIjoiYXBpIn0.D2bgpuudJtrWv0aJnSfYeEnnnEwLyYgWy1N7tSLXx1vheISTAsXohegnmWFFKfweF78wzHyzasaIIGd7tNJd0J1on3zDSj0l-WHpRAQEK8oCvmZBX5VmnIKvNmFXctkn7jdkUz7nleINd7WqyYFoIE0IUUsve8k7V4d0xbCITv4lT60i_NviFpeyFUJ5xerm3BVOvmkTU5r96YBaJ3ztdDI0plZ0nMtk2vRPS4gHvUP_L7Rt3SEC9-OgzkPw8CwUc348DnWfiIuWojHRAyl83NwQNf0_H1arwedX9dP62taUsiICOZ-NiItIv6sQ6-g9dtmO0pGO10qrsrlNtKL60'. ---> System.FormatException: IDX14700: Unable to decode: 'D2bgpuudJtrWv0aJnSfYeEnnnEwLyYgWy1N7tSLXx1vheISTAsXohegnmWFFKfweF78wzHyzasaIIGd7tNJd0J1on3zDSj0l+WHpRAQEK8oCvmZBX5VmnIKvNmFXctkn7jdkUz7nleINd7WqyYFoIE0IUUsve8k7V4d0xbCITv4lT60i/NviFpeyFUJ5xerm3BVOvmkTU5r96YBaJ3ztdDI0plZ0nMtk2vRPS4gHvUP/L7Rt3SEC9+OgzkPw8CwUc348DnWfiIuWojHRAyl83NwQNf0/H1arwedX9dP62taUsiICOZ+NiItIv6sQ6+g9dtmO0pGO10qrsrlNtKL60' as Base64url encoded string.
+   at System.IdentityModel.Tokens.Base64UrlEncoder.DecodeBytes(String str) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Base64UrlEncoder.cs:line 129
+   at System.IdentityModel.Tokens.Base64UrlEncoder.Decode(String arg) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Base64UrlEncoder.cs:line 142
+   at System.IdentityModel.Tokens.JwtSecurityToken.Decode(String jwtEncodedString) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityToken.cs:line 376
    --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 59
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.OpenIdConnectConfigurationRetriever.<GetAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\OpenIdConnectConfigurationRetriever.cs:line 85
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
+   at System.IdentityModel.Tokens.JwtSecurityToken.Decode(String jwtEncodedString) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityToken.cs:line 376
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ReadToken(String tokenString) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 627
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:26:12.4747066Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.ArgumentException: IDX10703: Unable to decode the 'signature': 'eyJpc3MiOiJodHRwczovL2lkZW50aXR5LWRldi5jb20vaWRlbnRpdHkiLCJhdWQiOiJodHRwczovL2lkZW50aXR5LWRldi5jb20vaWRlbnRpdHkvcmVzb3VyY2VzIiwiZXhwIjoxNDc3MTY3OTU4LCJuYmYiOjE0NzcxNjQzNTgsImNsaWVudF9pZCI6IndlYmFwaSIsInNjb3BlIjoiYXBpIn0' as Base64url encoded string. jwtEncodedString: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSIsImtpZCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSJ9.eyJpc3MiOiJodHRwczovL2lkZW50aXR5LWRldi5jb20vaWRlbnRpdHkiLCJhdWQiOiJodHRwczovL2lkZW50aXR5LWRldi5jb20vaWRlbnRpdHkvcmVzb3VyY2VzIiwiZXhwIjoxNDc3MTY3OTU4LCJuYmYiOjE0NzcxNjQzNTgsImNsaWVudF9pZCI6IndlYmFwaSIsInNjb3BlIjoiYXBpIn0.D2bgpuudJtrWv0aJnSfYeEnnnEwLyYgWy1N7tSLXx1vheISTAsXohegnmWFFKfweF78wzHyzasaIIGd7tNJd0J1on3zDSj0l-WHpRAQEK8oCvmZBX5VmnIKvNmFXctkn7jdkUz7nleINd7WqyYFoIE0IUUsve8k7V4d0xbCITv4lT60i_NviFpeyFUJ5xerm3BVOvmkTU5r96YBaJ3ztdDI0plZ0nMtk2vRPS4gHvUP_L7Rt3SEC9-OgzkPw8CwUc348DnWfiIuWojHRAyl83NwQNf0_H1arwedX9dP62taUsiICOZ-NiItIv6sQ6-g9dtmO0pGO10qrsrlNtKL60'. ---> System.FormatException: IDX14700: Unable to decode: 'D2bgpuudJtrWv0aJnSfYeEnnnEwLyYgWy1N7tSLXx1vheISTAsXohegnmWFFKfweF78wzHyzasaIIGd7tNJd0J1on3zDSj0l+WHpRAQEK8oCvmZBX5VmnIKvNmFXctkn7jdkUz7nleINd7WqyYFoIE0IUUsve8k7V4d0xbCITv4lT60i/NviFpeyFUJ5xerm3BVOvmkTU5r96YBaJ3ztdDI0plZ0nMtk2vRPS4gHvUP/L7Rt3SEC9+OgzkPw8CwUc348DnWfiIuWojHRAyl83NwQNf0/H1arwedX9dP62taUsiICOZ+NiItIv6sQ6+g9dtmO0pGO10qrsrlNtKL60' as Base64url encoded string.
+   at System.IdentityModel.Tokens.Base64UrlEncoder.DecodeBytes(String str) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Base64UrlEncoder.cs:line 129
+   at System.IdentityModel.Tokens.Base64UrlEncoder.Decode(String arg) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Base64UrlEncoder.cs:line 142
+   at System.IdentityModel.Tokens.JwtSecurityToken.Decode(String jwtEncodedString) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityToken.cs:line 376
    --- End of inner exception stack trace ---
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__3.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 212
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.<GetConfigurationAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\ConfigurationManager.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.<<RetrieveMetadata>b__0>d__4.MoveNext() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 0
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
-   at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=6844
-    DateTime=2016-10-19T14:43:08.0273457Z
+   at System.IdentityModel.Tokens.JwtSecurityToken.Decode(String jwtEncodedString) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityToken.cs:line 376
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ReadToken(String tokenString) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 627
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:26:14.7078343Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.ArgumentException: IDX10703: Unable to decode the 'signature': 'eyJpc3MiOiJodHRwczovL2lkZW50aXR5LWRldi5jb20vaWRlbnRpdHkiLCJhdWQiOiJodHRwczovL2lkZW50aXR5LWRldi5jb20vaWRlbnRpdHkvcmVzb3VyY2VzIiwiZXhwIjoxNDc3MTY3OTU4LCJuYmYiOjE0NzcxNjQzNTgsImNsaWVudF9pZCI6IndlYmFwaSIsInNjb3BlIjoiYXBpIn0' as Base64url encoded string. jwtEncodedString: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSIsImtpZCI6ImEzck1VZ01Gdjl0UGNsTGE2eUYzekFrZnF1RSJ9.eyJpc3MiOiJodHRwczovL2lkZW50aXR5LWRldi5jb20vaWRlbnRpdHkiLCJhdWQiOiJodHRwczovL2lkZW50aXR5LWRldi5jb20vaWRlbnRpdHkvcmVzb3VyY2VzIiwiZXhwIjoxNDc3MTY3OTU4LCJuYmYiOjE0NzcxNjQzNTgsImNsaWVudF9pZCI6IndlYmFwaSIsInNjb3BlIjoiYXBpIn0.D2bgpuudJtrWv0aJnSfYeEnnnEwLyYgWy1N7tSLXx1vheISTAsXohegnmWFFKfweF78wzHyzasaIIGd7tNJd0J1on3zDSj0l-WHpRAQEK8oCvmZBX5VmnIKvNmFXctkn7jdkUz7nleINd7WqyYFoIE0IUUsve8k7V4d0xbCITv4lT60i_NviFpeyFUJ5xerm3BVOvmkTU5r96YBaJ3ztdDI0plZ0nMtk2vRPS4gHvUP_L7Rt3SEC9-OgzkPw8CwUc348DnWfiIuWojHRAyl83NwQNf0_H1arwedX9dP62taUsiICOZ-NiItIv6sQ6-g9dtmO0pGO10qrsrlNtKL60'. ---> System.FormatException: IDX14700: Unable to decode: 'D2bgpuudJtrWv0aJnSfYeEnnnEwLyYgWy1N7tSLXx1vheISTAsXohegnmWFFKfweF78wzHyzasaIIGd7tNJd0J1on3zDSj0l+WHpRAQEK8oCvmZBX5VmnIKvNmFXctkn7jdkUz7nleINd7WqyYFoIE0IUUsve8k7V4d0xbCITv4lT60i/NviFpeyFUJ5xerm3BVOvmkTU5r96YBaJ3ztdDI0plZ0nMtk2vRPS4gHvUP/L7Rt3SEC9+OgzkPw8CwUc348DnWfiIuWojHRAyl83NwQNf0/H1arwedX9dP62taUsiICOZ+NiItIv6sQ6+g9dtmO0pGO10qrsrlNtKL60' as Base64url encoded string.
+   at System.IdentityModel.Tokens.Base64UrlEncoder.DecodeBytes(String str) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Base64UrlEncoder.cs:line 129
+   at System.IdentityModel.Tokens.Base64UrlEncoder.Decode(String arg) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Base64UrlEncoder.cs:line 142
+   at System.IdentityModel.Tokens.JwtSecurityToken.Decode(String jwtEncodedString) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityToken.cs:line 376
+   --- End of inner exception stack trace ---
+   at System.IdentityModel.Tokens.JwtSecurityToken.Decode(String jwtEncodedString) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityToken.cs:line 376
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ReadToken(String tokenString) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 627
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:26:19.2630949Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:30:06'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:30:07.0061210Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:30:08'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:30:08.5622100Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:30:09'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:30:09.5972692Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:30:10'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:30:10.2813084Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:30:10'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:30:10.7663361Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:30:11'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:30:11.2033611Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:30:11'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:30:11.4963779Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:30:29'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:30:29.8654285Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:31:29'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:31:29.8318584Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:33:15'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:33:15.7209149Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/21/2016 21:38:32'
+Current time: '10/22/2016 19:33:17'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=17312
+    DateTime=2016-10-22T19:33:17.2049998Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=17312
+    DateTime=2016-10-22T19:33:55.4651881Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=10244
+    DateTime=2016-10-23T04:49:48.8287323Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14208
+    DateTime=2016-10-23T09:53:03.4833785Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14208
+    DateTime=2016-10-23T09:55:43.7542012Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/23/2016 10:55:43'
+Current time: '10/23/2016 20:47:18'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=7396
+    DateTime=2016-10-23T20:47:18.3831973Z
+Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationMiddleware Error: 0 : Authentication failed
+System.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '10/23/2016 10:55:43'
+Current time: '10/23/2016 21:44:37'.
+   at System.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\Validators.cs:line 219
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1193
+   at System.IdentityModel.Tokens.JwtSecurityTokenHandler.ValidateToken(String securityToken, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in c:\workspace\WilsonForDotNet45Release\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 702
+   at Microsoft.Owin.Security.Jwt.JwtFormat.Unprotect(String protectedText)
+   at Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationHandler.<AuthenticateCoreAsync>d__0.MoveNext()
+    ProcessId=14112
+    DateTime=2016-10-23T21:44:37.1886146Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14112
+    DateTime=2016-10-23T21:45:05.4393476Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14076
+    DateTime=2016-10-24T18:13:00.0367211Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14076
+    DateTime=2016-10-24T18:13:53.4427758Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14076
+    DateTime=2016-10-24T18:15:20.6337628Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14076
+    DateTime=2016-10-24T18:19:41.9977120Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T18:47:34.5723778Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T18:49:07.8117108Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T18:49:43.8647729Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T19:01:32.0372780Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T19:02:02.8600410Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T19:06:42.7150478Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T19:08:52.5584744Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T19:14:04.5651176Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T19:21:54.8840183Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T19:22:11.1239471Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Warning: 0 : The nonce cookie was not found.
+    ProcessId=14440
+    DateTime=2016-10-24T19:22:11.1299475Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Error: 0 : Exception occurred while processing message: 'System.Runtime.ExceptionServices.ExceptionDispatchInfo
+    ProcessId=14440
+    DateTime=2016-10-24T19:22:11.1329476Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T19:25:03.7158188Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T19:39:14.2214650Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T19:54:55.2972914Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T19:57:38.7296392Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T19:58:01.2319263Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=14440
+    DateTime=2016-10-24T20:09:30.1423297Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T08:29:02.9724961Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T08:31:09.2954961Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T08:31:19.9314961Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T08:31:29.6984961Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T08:31:49.8784961Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T08:33:40.8254961Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T08:34:21.7484961Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T08:35:50.3854961Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T08:36:09.7114961Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T08:36:27.6794961Z
 IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider Error: 0 : Error contacting discovery endpoint: System.InvalidOperationException: IDX10803: Unable to create to obtain configuration from: 'https://identity-dev.com/identity/.well-known/openid-configuration'. ---> System.IO.IOException: Unable to get document from: https://identity-dev.com/identity/identity/.well-known/jwks ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
    at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
    at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.<GetDocumentAsync>d__0.MoveNext() in c:\workspace\WilsonForDotNet45Release\src\Microsoft.IdentityModel.Protocol.Extensions\Configuration\HttpDocumentRetriever.cs:line 55
@@ -535,5 +441,104 @@ IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvid
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at IdentityServer3.AccessTokenValidation.AsyncHelper.RunSync[TResult](Func`1 func) in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\AsyncHelper.cs:line 34
    at IdentityServer3.AccessTokenValidation.DiscoveryDocumentIssuerSecurityTokenProvider.RetrieveMetadata() in c:\local\identity\server3\AccessTokenValidation\source\AccessTokenValidation\Plumbing\DiscoveryDocumentIssuerSecurityTokenProvider.cs:line 148
-    ProcessId=6844
-    DateTime=2016-10-19T14:45:01.9038590Z
+    ProcessId=6820
+    DateTime=2016-10-25T08:37:29.9264961Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T09:03:46.3746689Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T09:03:58.2934345Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T09:04:26.2516133Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T09:04:57.7932249Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T09:05:10.6573685Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T09:05:20.2902201Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T09:05:50.8334325Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T09:06:00.4432749Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T09:16:37.7673269Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=6820
+    DateTime=2016-10-25T09:17:31.0072517Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=15204
+    DateTime=2016-10-25T19:34:49.6130744Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=17272
+    DateTime=2016-10-27T08:05:30.6918635Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=17272
+    DateTime=2016-10-27T08:11:40.3272304Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T19:09:43.9193838Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T19:15:48.6601560Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T19:27:03.9917827Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T19:30:29.5665409Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T19:30:29.5755415Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T19:30:40.6721761Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T19:33:53.0941821Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T19:54:56.3754376Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T19:56:39.9370474Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T19:57:40.4509490Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T20:00:34.0386857Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T20:03:48.8563680Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T20:18:55.7666790Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T20:48:09.3360434Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Error: 0 : Exception occurred while processing message: 'System.Runtime.ExceptionServices.ExceptionDispatchInfo
+    ProcessId=9752
+    DateTime=2016-10-27T20:48:09.3460440Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T20:50:23.7447311Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Error: 0 : Exception occurred while processing message: 'System.Runtime.ExceptionServices.ExceptionDispatchInfo
+    ProcessId=9752
+    DateTime=2016-10-27T20:50:23.7547317Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T20:50:27.5839507Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Error: 0 : Exception occurred while processing message: 'System.Runtime.ExceptionServices.ExceptionDispatchInfo
+    ProcessId=9752
+    DateTime=2016-10-27T20:50:27.5849508Z
+Microsoft.Owin.Security.OpenIdConnect.OpenIdConnectAuthenticationMiddleware Verbose: 0 : Buffering request body
+    ProcessId=9752
+    DateTime=2016-10-27T21:00:45.3912873Z

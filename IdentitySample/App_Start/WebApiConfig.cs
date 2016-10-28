@@ -11,6 +11,7 @@ namespace IdentitySample
         {
             HttpConfiguration config = new HttpConfiguration();
             // Web API configuration and services
+            //config.SuppressDefaultHostAuthentication();
 
             // Web API routes
             config.MapHttpAttributeRoutes();
